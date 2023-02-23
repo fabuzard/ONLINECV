@@ -1,19 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&display=swap');
 
 body{
     background-color: black;
 }
 .navbar{
     background-color: #1B1B1B;
-    color: #9C9C9C;
+
     display: flex;
     justify-content: space-around;
-    padding: 14px;
+    padding: 15px;
+    
+margin:0 25px 0 25px;
+
+}
+.nav-text{
+    color: #9C9C9C;
     font-family: 'IBM Plex Mono';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.01em;
-margin:0 25px 0 25px;
+}
+.nav-text:hover{
+    color: gold;
+    cursor: pointer;
+}
+
+.section-1{
+color: white;
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 150px;
+margin:150px 180px 0 180px;
+}
+
+.my-name{
+
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.my-description{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 75ch;
+    /* or 171% */
+    
+    letter-spacing: 0.01em;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image>img{
+    border-radius: 50%;
+    width: 300px;
+  
 }
